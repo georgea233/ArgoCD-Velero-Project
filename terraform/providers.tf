@@ -28,7 +28,7 @@ terraform {
 
 provider "aws" {
   region = var.aws_region
-  #profile = "anselmenumbsia-adm"
+  profile = "george"
 }
 provider "kubernetes" {
   host                   = module.eks_cluster.cluster_endpoint
